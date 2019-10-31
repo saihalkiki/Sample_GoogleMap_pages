@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>住所(Address):</strong>
+  <%= @map.address %>
+</p>
+
+<p>
+  <strong>緯度(Latitude):</strong>
+  <%= @map.latitude %>
+</p>
+
+<p>
+  <strong>軽度(Longitude):</strong>
+  <%= @map.longitude %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_map_path(@map) %> |
+<%= link_to 'Back', maps_path %>
